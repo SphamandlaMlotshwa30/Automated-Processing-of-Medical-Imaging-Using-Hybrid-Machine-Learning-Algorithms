@@ -1,0 +1,16 @@
+Detailed Metrics:
+
+Training Accuracy : 95.89
+Validation Accuracy: 0.9484
+Precision: 0.9095
+Recall: 0.9385
+F1-Score: 0.9279
+AUC-ROC: 0.9091
+
+
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("obulisainaren/multi-cancer")
+
+print("Path to dataset files:", path)
